@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Anaconda / conda env
+.conda/
+env.yml
+.venv/
+
+# Data and model artifacts (keep raw and processed directories but avoid large files)
+data/raw/
+data/processed/
+app/model.pkl
+
+# VSCode
+.vscode/
+
+# logs
+*.log
+
+# system
+*.sqlite3
+
+# pip / cache
+pip-wheel-metadata/
+*.whl
+
+# Streamlit cache (if any)
+.streamlit/
