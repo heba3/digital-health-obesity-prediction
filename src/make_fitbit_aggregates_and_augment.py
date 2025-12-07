@@ -4,9 +4,9 @@ import numpy as np
 from pathlib import Path
 import zipfile
 
-# تعديل المسارات إذا لزم
-fitbit_path = Path("data/raw/daily_fitbit_sema_df_unprocessed.csv")  # ضع مسار ملفك
-obesity_path = Path("data/raw/ObesityDataSet_raw_and_data_sinthetic.csv")  # ضع مسار ملفك
+
+fitbit_path = Path("data/raw/daily_fitbit_sema_df_unprocessed.csv")
+obesity_path = Path("data/raw/ObesityDataSet_raw_and_data_sinthetic.csv")  
 
 out_dir = Path("data/processed")
 out_dir.mkdir(parents=True, exist_ok=True)
